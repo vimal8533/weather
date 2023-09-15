@@ -1,0 +1,75 @@
+body{
+    background-image: url('C:\Weather\wether\src\pexels-johannes-plenio-1118873.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    text-align: center;
+    font-style: italic;
+    color: burlywood;
+}
+.city_name{
+    margin-top: 5%;
+    margin-left: 20%;
+    color: thistle;
+}
+.form{
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.label{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+    color: antiquewhite;
+}
+input{
+    height: 40px;
+    width: 150px;
+    margin-left: 10%;
+    background-image: url('C:\Weather\wether\src\pexels-johannes-plenio-1118873.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+    color:darkolivegreen;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.time_data{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    color: antiquewhite;
+}
+button{
+    margin-top: 3%;
+    margin-left: 35%;
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: url('C:\Weather\wether\src\pexels-johannes-plenio-1118873.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+.output{
+    display: flex;
+    height: 30%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    color: thistle;
+}
+.time{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 70%;
+    justify-content: space-between;
+}
+.form_box{
+    display: flex;
+    width: 60%;
+    /* border: 1px solid black; */
+}
